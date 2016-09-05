@@ -101,7 +101,7 @@ public class FibonacciBase {
             b = fibonacciNumbers.get(fibonacciNumbers.size() - 1);
             while (b <= target) {
                 int sum = a + b;
-                if (sum < target) {
+                if (sum <= target) {
                     fibonacciNumbers.add(sum);
                 }
                 a = b;
